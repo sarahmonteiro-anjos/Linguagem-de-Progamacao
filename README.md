@@ -1,6 +1,8 @@
 # Linguagem-de-Progamacao
 Códigos em Python
-uso do if,else e da linguagem for: 
+uso do if,else e da linguagem for:
+
+
 vl_inicio = float(input("Digite o valor inicial de Fahrenheit: "))
 vl_final = float(input("Digite o valor final de Fahrenheit: "))
 if vl_inicio <= vl_final:
@@ -12,3 +14,13 @@ print('-' * 25)
 for f in range(int(vl_inicio),int( vl_final)+ passo,passo):
     c = (5) * (f - 32)/9
     print(f"{f:>12} | {c:>10.2f}")
+    Digite o valor inicial de Fahrenheit: 15
+Digite o valor final de Fahrenheit: 10
+  Fahrenheit |    Celsius
+-------------------------
+          15 |      -9.44
+          14 |     -10.00
+          13 |     -10.56
+          12 |     -11.11
+          11 |     -11.67
+          10 |     -12.22
